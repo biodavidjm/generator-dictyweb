@@ -1,0 +1,188 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--registry',
+1 verbose cli   'http://registry.npmjs.eu/' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/djt469/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+12 verbose folder .
+13 info prepublish generator-dictyweb@0.1.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/djt469/.npm/1f1177db-tar.lock
+16 silly lockFile a27c685c-8240-0-13241909490898252-tmp-tgz tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+17 verbose lock tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz /Users/djt469/.npm/a27c685c-8240-0-13241909490898252-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile a27c685c-8240-0-13241909490898252-tmp-tgz tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+21 silly lockFile a27c685c-8240-0-13241909490898252-tmp-tgz tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+22 verbose tar unpack /Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+23 silly lockFile acf07923-8240-0-13241909490898252-package tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+24 verbose lock tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package /Users/djt469/.npm/acf07923-8240-0-13241909490898252-package.lock
+25 silly lockFile a27c685c-8240-0-13241909490898252-tmp-tgz tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+26 verbose lock tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz /Users/djt469/.npm/a27c685c-8240-0-13241909490898252-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry app/index.js
+31 silly gunzTarPerm extractEntry app/USAGE
+32 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+33 silly gunzTarPerm extractEntry app/templates/gitattributes
+34 silly gunzTarPerm extractEntry app/templates/_bower.json
+35 silly gunzTarPerm extractEntry app/templates/_package.json
+36 silly gunzTarPerm extractEntry app/templates/bowerrc
+37 silly gunzTarPerm extractEntry app/templates/editorconfig
+38 silly gunzTarPerm extractEntry app/templates/favicon.ico
+39 silly gunzTarPerm extractEntry app/templates/404.html
+40 silly gunzTarPerm extractEntry app/templates/gitignore
+41 silly gunzTarPerm extractEntry app/templates/htaccess
+42 silly gunzTarPerm extractEntry app/templates/index.html
+43 silly gunzTarPerm extractEntry app/templates/jshintrc
+44 silly gunzTarPerm extractEntry app/templates/main.css
+45 silly gunzTarPerm extractEntry app/templates/main.scss
+46 silly gunzTarPerm extractEntry app/templates/robots.txt
+47 silly lockFile acf07923-8240-0-13241909490898252-package tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+48 silly lockFile acf07923-8240-0-13241909490898252-package tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+49 silly lockFile a27c685c-8240-0-13241909490898252-tmp-tgz tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+50 silly lockFile a27c685c-8240-0-13241909490898252-tmp-tgz tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/tmp.tgz
+51 verbose tar pack [ '/Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz',
+51 verbose tar pack   '/Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package' ]
+52 verbose tarball /Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+53 verbose folder /Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+54 silly lockFile acf07923-8240-0-13241909490898252-package tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+55 verbose lock tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package /Users/djt469/.npm/acf07923-8240-0-13241909490898252-package.lock
+56 silly lockFile 5273d8b3-rator-dictyweb-0-1-1-package-tgz tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+57 verbose lock tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz /Users/djt469/.npm/5273d8b3-rator-dictyweb-0-1-1-package-tgz.lock
+58 silly lockFile acf07923-8240-0-13241909490898252-package tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+59 silly lockFile acf07923-8240-0-13241909490898252-package tar:///Users/djt469/tmp/npm-33751-8dxmVaKS/1397864208240-0.13241909490898252/package
+60 silly lockFile 5273d8b3-rator-dictyweb-0-1-1-package-tgz tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+61 silly lockFile 5273d8b3-rator-dictyweb-0-1-1-package-tgz tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+62 silly lockFile fa2ba1ab-generator-dictyweb-0-1-1-package /Users/djt469/.npm/generator-dictyweb/0.1.1/package
+63 verbose lock /Users/djt469/.npm/generator-dictyweb/0.1.1/package /Users/djt469/.npm/fa2ba1ab-generator-dictyweb-0-1-1-package.lock
+64 silly lockFile fa2ba1ab-generator-dictyweb-0-1-1-package /Users/djt469/.npm/generator-dictyweb/0.1.1/package
+65 silly lockFile fa2ba1ab-generator-dictyweb-0-1-1-package /Users/djt469/.npm/generator-dictyweb/0.1.1/package
+66 verbose tar unpack /Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+67 silly lockFile 41e674b5-generator-dictyweb-0-1-1-package tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package
+68 verbose lock tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package /Users/djt469/.npm/41e674b5-generator-dictyweb-0-1-1-package.lock
+69 silly lockFile 5273d8b3-rator-dictyweb-0-1-1-package-tgz tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+70 verbose lock tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz /Users/djt469/.npm/5273d8b3-rator-dictyweb-0-1-1-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry README.md
+74 silly gunzTarPerm extractEntry app/index.js
+75 silly gunzTarPerm extractEntry app/USAGE
+76 silly gunzTarPerm extractEntry app/templates/Gruntfile.js
+77 silly gunzTarPerm extractEntry app/templates/gitattributes
+78 silly gunzTarPerm extractEntry app/templates/_bower.json
+79 silly gunzTarPerm extractEntry app/templates/_package.json
+80 silly gunzTarPerm extractEntry app/templates/bowerrc
+81 silly gunzTarPerm extractEntry app/templates/editorconfig
+82 silly gunzTarPerm extractEntry app/templates/favicon.ico
+83 silly gunzTarPerm extractEntry app/templates/404.html
+84 silly gunzTarPerm extractEntry app/templates/gitignore
+85 silly gunzTarPerm extractEntry app/templates/htaccess
+86 silly gunzTarPerm extractEntry app/templates/index.html
+87 silly gunzTarPerm extractEntry app/templates/jshintrc
+88 silly gunzTarPerm extractEntry app/templates/main.css
+89 silly gunzTarPerm extractEntry app/templates/main.scss
+90 silly gunzTarPerm extractEntry app/templates/robots.txt
+91 silly lockFile 41e674b5-generator-dictyweb-0-1-1-package tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package
+92 silly lockFile 41e674b5-generator-dictyweb-0-1-1-package tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package
+93 silly lockFile 5273d8b3-rator-dictyweb-0-1-1-package-tgz tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+94 silly lockFile 5273d8b3-rator-dictyweb-0-1-1-package-tgz tar:///Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz
+95 verbose chmod /Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz 644
+96 verbose chown /Users/djt469/.npm/generator-dictyweb/0.1.1/package.tgz [ 534598257, 1162086330 ]
+97 silly lockFile 3a52ce78- .
+98 silly lockFile 3a52ce78- .
+99 silly publish { name: 'generator-dictyweb',
+99 silly publish   version: '0.1.1',
+99 silly publish   description: 'Scaffold out a front-end web app for the dictyBase',
+99 silly publish   license: 'BSD',
+99 silly publish   repository:
+99 silly publish    { type: 'git',
+99 silly publish      url: 'git://github.com/dictyBase/generator-dictyweb' },
+99 silly publish   author: { name: 'The dictyBase Team' },
+99 silly publish   main: 'app/index.js',
+99 silly publish   engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+99 silly publish   scripts: { test: 'mocha --reporter spec' },
+99 silly publish   files: [ 'app' ],
+99 silly publish   keywords:
+99 silly publish    [ 'dictyBase',
+99 silly publish      'Dictyostelium',
+99 silly publish      'yeoman-generator',
+99 silly publish      'web',
+99 silly publish      'app',
+99 silly publish      'front-end',
+99 silly publish      'h5bp',
+99 silly publish      'modernizr',
+99 silly publish      'jquery',
+99 silly publish      'grunt' ],
+99 silly publish   dependencies:
+99 silly publish    { 'yeoman-generator': '~0.16.0',
+99 silly publish      cheerio: '~0.13.0',
+99 silly publish      chalk: '~0.4.0' },
+99 silly publish   peerDependencies: { yo: '>=1.0.0', 'generator-mocha': '>=0.1.0' },
+99 silly publish   devDependencies: { mocha: '*' },
+99 silly publish   readme: '# The dictyWeb generator \n[![dictyimage](https://github.com/dictyBase/generator-dictyweb/blob/master/img/dictyCulm_small.jpg?raw=true)](http://dictybase.org/)\n\n\n[Yeoman generator](http://yeoman.io) that scaffolds out a front-end web app for the dictyBase. This generator is a version of the fantastic [webapp generator](https://github.com/yeoman/generator-webapp).\n\n\n\n## Features\n\n* [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png?1)](http://gruntjs.com/)\n* CSS Autoprefixing *(new)*\n* Built-in preview server with LiveReload\n* Automagically compile CoffeeScript & Sass\n* Automagically lint your scripts\n* Automagically wire up your Bower components with [bower-install](#third-party-dependencies).\n* Awesome Image Optimization (via OptiPNG, pngquant, jpegtran and gifsicle)\n* Mocha Unit Testing with PhantomJS\n* Optional - Bootstrap for Sass\n* Optional - Leaner Modernizr builds *(new)*\n\nFor more information on what `generator-dictyweb` does, take a look at the [Grunt tasks](https://github.com/yeoman/generator-webapp/blob/master/app/templates/_package.json) used in our `package.json`.\n\n\n## Getting Started\n\n- Install: `npm install -g generator-dictyweb`\n\t- If you don\'t install globally, then `npm install generator-dictyweb`\n- Create folder and cd in: ``mkdir dicty_www && cd dicty_www``\n- Run: `yo dictyweb`\n- Run `grunt` for building and `grunt serve` for preview.\n\n\n## Making it available on NPM registry\n\n(Assuming you have your own account on NPM, otherwise you need to `npm adduser peterpeter`)\n\n- Modify the file ``package.json`` updating version (or whatever information you want to include)\n\n- `npm publish`\n\nTo unpublished a previous version, then `nom unpublished generator-dictyweb@#.#.#`\n\n\n\n<!--#### Third-Party Dependencies\n\n*(HTML/CSS/JS/Images/etc)*\n\nThird-party dependencies are managed with [bower-install](https://github.com/stephenplusplus/grunt-bower-install). Add new dependencies using **Bower** and then run the **Grunt** task to load them:\n\n```bash\n  bower install --save jquery\n  grunt bowerInstall\n```\n\nThis works if the package author has followed the [Bower spec](https://github.com/bower/bower.json-spec). If the files are not automatically added to your index.html, check with the package\'s repo for support and/or file an issue with them to have it updated.\n\nTo manually add dependencies, `bower install depName --save` to get the files, then add a `script` or `style` tag to your `index.html` or an other appropriate place.\n\nThe components are installed in the root of the project at `/bower_components`. To reference them from the `grunt serve` web app `index.html` file, use `src="bower_components"` or `src="/bower_components"`. Treat the references as if they were a sibling to `index.html`.\n\n*Testing Note*: a project checked into source control and later checked out, needs to have `bower install` run from the `test` folder as well as from project root.\n\n\n#### Grunt Serve Note\n\nNote: `grunt server` was previously used for previewing in earlier versions of the project and is being deprecated in favor of `grunt serve`.\n\n\n## Options\n\n* `--skip-install`\n\n  Skips the automatic execution of `bower` and `npm` after scaffolding has finished.\n\n* `--test-framework=<framework>`\n\n  Defaults to `mocha`. Can be switched for another supported testing framework like `jasmine`.\n\n* `--coffee`\n\n  Add support for [CoffeeScript](http://coffeescript.org/).\n-->\n\n<!--## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\nNote: We are regularly asked whether we can add or take away features. If a change is good enough to have a positive impact on all users, we are happy to consider it.\n\nIf not, `generator-webapp` is fork-friendly and you can always maintain a custom version which you `npm install && npm link` to continue using via `yo webapp` or a name of your choosing.-->\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n\n[![dictylogo](https://github.com/dictyBase/generator-dictyweb/blob/master/img/dictylogo.gif?raw=true)](http://dictybase.org/)\n',
+99 silly publish   readmeFilename: 'README.md',
+99 silly publish   bugs: { url: 'https://github.com/dictyBase/generator-dictyweb/issues' },
+99 silly publish   homepage: 'https://github.com/dictyBase/generator-dictyweb',
+99 silly publish   _id: 'generator-dictyweb@0.1.1',
+99 silly publish   dist: { shasum: 'e95575931552f3ae82f68f82050acb9cf2b02aaa' },
+99 silly publish   _from: '.' }
+100 verbose url raw generator-dictyweb
+101 verbose url resolving [ 'http://registry.npmjs.eu/', './generator-dictyweb' ]
+102 verbose url resolved http://registry.npmjs.eu/generator-dictyweb
+103 info trying registry request attempt 1 at 18:36:48
+104 http PUT http://registry.npmjs.eu/generator-dictyweb
+105 http 403 http://registry.npmjs.eu/generator-dictyweb
+106 verbose bad json <html><body><h1>403 Forbidden</h1>
+106 verbose bad json Request forbidden by administrative rules.
+106 verbose bad json </body></html>
+107 error registry error parsing json
+108 error publish Failed PUT 403
+109 error SyntaxError: Unexpected token <
+109 error <html><body><h1>403 Forbidden</h1>
+109 error Request forbidden by administrative rules.
+109 error </body></html>
+109 error
+109 error     at Object.parse (native)
+109 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:203:23)
+109 error     at Request.self.callback (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+109 error     at Request.EventEmitter.emit (events.js:98:17)
+109 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+109 error     at Request.EventEmitter.emit (events.js:117:20)
+109 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+109 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+109 error     at _stream_readable.js:920:16
+109 error     at process._tickCallback (node.js:415:13)
+110 error If you need help, you may report this *entire* log,
+110 error including the npm and node versions, at:
+110 error     <http://github.com/npm/npm/issues>
+111 error System Darwin 13.1.0
+112 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "publish" "--registry" "http://registry.npmjs.eu/"
+113 error cwd /Users/djt469/github/generator-dictyweb
+114 error node -v v0.10.26
+115 error npm -v 1.4.3
+116 error type unexpected_token
+117 verbose exit [ 1, true ]
