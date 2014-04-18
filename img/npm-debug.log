@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'unpublish',
+1 verbose cli   'generator-dictyweb',
+1 verbose cli   '--force' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn using --force I sure hope you know what you are doing.
+5 verbose url raw generator-dictyweb?write=true
+6 verbose url resolving [ 'https://registry.npmjs.org/',
+6 verbose url resolving   './generator-dictyweb?write=true' ]
+7 verbose url resolved https://registry.npmjs.org/generator-dictyweb?write=true
+8 info trying registry request attempt 1 at 17:50:44
+9 http GET https://registry.npmjs.org/generator-dictyweb?write=true
+10 http 200 https://registry.npmjs.org/generator-dictyweb?write=true
+11 silly registry.get cb [ 200,
+11 silly registry.get   { date: 'Fri, 18 Apr 2014 22:50:45 GMT',
+11 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+11 silly registry.get     etag: '"70SWQRC6CWSZUIZX3B20V6Y0V"',
+11 silly registry.get     'content-type': 'application/json',
+11 silly registry.get     'cache-control': 'max-age=0',
+11 silly registry.get     'content-length': '6182',
+11 silly registry.get     'accept-ranges': 'bytes',
+11 silly registry.get     via: '1.1 varnish',
+11 silly registry.get     age: '0',
+11 silly registry.get     'x-served-by': 'cache-d46-DAL',
+11 silly registry.get     'x-cache': 'MISS',
+11 silly registry.get     'x-cache-hits': '0',
+11 silly registry.get     'x-timer': 'S1397861445.435951710,VS0,VE205',
+11 silly registry.get     vary: 'Accept',
+11 silly registry.get     'keep-alive': 'timeout=10, max=50',
+11 silly registry.get     connection: 'Keep-Alive' } ]
+12 info unpublish No version specified, removing all
+13 verbose url raw generator-dictyweb/-rev/5-66f1aa072d120d0709798a8eb2386392
+14 verbose url resolving [ 'https://registry.npmjs.org/',
+14 verbose url resolving   './generator-dictyweb/-rev/5-66f1aa072d120d0709798a8eb2386392' ]
+15 verbose url resolved https://registry.npmjs.org/generator-dictyweb/-rev/5-66f1aa072d120d0709798a8eb2386392
+16 info trying registry request attempt 1 at 17:50:45
+17 http DELETE https://registry.npmjs.org/generator-dictyweb/-rev/5-66f1aa072d120d0709798a8eb2386392
+18 http 401 https://registry.npmjs.org/generator-dictyweb/-rev/5-66f1aa072d120d0709798a8eb2386392
+19 error Error: unauthorized Name or password is incorrect.: generator-dictyweb/-rev/5-66f1aa072d120d0709798a8eb2386392
+19 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+19 error     at Request.self.callback (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+19 error     at Request.EventEmitter.emit (events.js:98:17)
+19 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+19 error     at Request.EventEmitter.emit (events.js:117:20)
+19 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+19 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+19 error     at _stream_readable.js:920:16
+19 error     at process._tickCallback (node.js:415:13)
+20 error If you need help, you may report this *entire* log,
+20 error including the npm and node versions, at:
+20 error     <http://github.com/npm/npm/issues>
+21 error System Darwin 13.1.0
+22 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "unpublish" "generator-dictyweb" "--force"
+23 error cwd /Users/djt469/github/generator-dictyweb/img
+24 error node -v v0.10.26
+25 error npm -v 1.4.3
+26 verbose exit [ 1, true ]

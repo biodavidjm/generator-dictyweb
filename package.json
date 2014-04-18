@@ -1,9 +1,9 @@
 {
   "name": "generator-dictyweb",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "Scaffold out a front-end web app for the dictyBase",
   "license": "BSD",
-  "repository": "biodavidjm/generator-dictyweb",
+  "repository": "dictyBase/generator-dictyweb",
   "author": "The dictyBase Team",
   "main": "app/index.js",
   "engines": {

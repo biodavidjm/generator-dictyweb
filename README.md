@@ -25,9 +25,22 @@ For more information on what `generator-dictyweb` does, take a look at the [Grun
 ## Getting Started
 
 - Install: `npm install -g generator-dictyweb`
+	- If you don't install globally, then `npm install generator-dictyweb`
 - Create folder and cd in: ``mkdir dicty_www && cd dicty_www``
 - Run: `yo dictyweb`
 - Run `grunt` for building and `grunt serve` for preview.
+
+
+## Making it available on NPM registry
+
+(Assuming you have your own account on NPM, otherwise you need to `npm adduser peterpeter`)
+
+- Modify the file ``package.json`` updating version (or whatever information you want to include)
+
+- `npm publish`
+
+To unpublished a previous version, then `nom unpublished generator-dictyweb@#.#.#`
+
 
 
 <!--#### Third-Party Dependencies
