@@ -33,7 +33,7 @@ For more information on what `generator-dictyweb` does, take a look at the [Grun
 
 ## Making it available on NPM registry
 
-(Assuming you have your own account on NPM, otherwise you need to `npm adduser peterpeter`)
+(Assuming you have your own account on NPM, otherwise you need to `npm adduser yourusername`)
 
 - Modify the file ``package.json`` updating version (or whatever information you want to include)
 
