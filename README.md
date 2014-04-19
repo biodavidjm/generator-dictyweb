@@ -37,9 +37,9 @@ For more information on what `generator-dictyweb` does, take a look at the [Grun
 
 - Modify the file ``package.json`` updating version (or whatever information you want to include)
 
-- `npm publish`
+- `npm publish <folder_that_contains_the_jason_file>` in this case, `npm publish generator-dictyweb`
 
-To unpublished a previous version, then `nom unpublished generator-dictyweb@#.#.#`
+To unpublished a previous version, then `npm unpublished generator-dictyweb@#.#.#`
 
 
 
