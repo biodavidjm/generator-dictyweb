@@ -1,0 +1,163 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+/*body {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}*/
+
+.col-xs-12 {
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: left;
+    border: 2px solid yellow;
+}
+.col-xs-6 {
+    height: 100px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+}
+.col-xs-4 {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+.col-xs-8 {
+    height: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.footer .col-sm-4 {
+    height: 100px;
+   /* background-color: blue;*/
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+
+background: -webkit-linear-gradient(#FFFFFF, blue); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#FFFFFF, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#FFFFFF, blue); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#FFFFFF, blue); /* Standard syntax */
+}
+
+/* the mother parent div contains everything*/
+.mother{
+ /*   overflow: auto;*/
+}
+
+/* The container at the head */
+.bigtopcontainer {
+    background-color: #006699;
+    line-height: 1px;
+    padding-bottom: 0px;
+    margin-left:auto; margin-right:auto; overflow: auto;
+}
+
+.headup {
+    border-top: 1px solid #FF33CC;
+    border-bottom: 1px solid #FF33CC;
+    border-left: 1px solid #FF33CC;
+    border-right: 1px solid #FF33CC;
+    margin: 0 auto; /* Center the div */
+    text-align: left;
+    width: 800px;
+    height: 50px;
+    background-color: #33CC99;
+}
+
+/* Custom page header */
+.header {
+    border-top: 1px solid #CCFF99;
+    border-bottom: 1px solid #CCFF99;
+    border-left: 1px solid #CCFF99;
+    border-right: 1px solid #CCFF99;
+    background-color: #FFCC99;
+    margin: 0 auto; /* Center the div */
+    text-align: left;
+    width: 800px;
+    height: 30px;
+    float: center;
+}
+
+/* Make the masthead heading the same height as the navigation */
+/*.header h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    line-height: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+}*/
+
+
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #33CCFF;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
